@@ -1,0 +1,6 @@
+// babelrc 编译的配置文件，用于将 es6 编译成 es5
+{
+  "presets": ["es2015", "stage-2"], // presets：表示预设，它表示 babelrc 转换预先需要安装的一些插件，stage-x：表示 ECMA 的草案（草案总共有四个阶段，0~3,0:stage0到3,2表示stage2到3，数字越小，包括的东西越多）
+  "plugins": ["transform-runtime"], // 插件，transform-runtime 将 ES6 的一些方法进行转换
+  "comments": false // false 表示转换后的代码不生成注释
+}
