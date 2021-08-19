@@ -45,4 +45,22 @@ better-scroll的滚动原理，dom结构至少需要2层。外层容器需要有
 
 [Vue-cli 官网](https://github.com/vuejs/vue-cli)
 
+[Vue-resource](https://github.com/vuejs/vue-resource)
+
+[Vue-router](https://github.com/vuejs/vue-router)
+
+[better-scroll](https://github.com/ustbhuangyi/better-scroll)
+
+[webpack官网](http:/ /webpack.github.io/)
+
+[Stylus中文文档](http://www.zhangxinxu.com/jq/stylus/)
+
+[es6入门学习](http://es6.ruanyifeng.com/)
+
+[eslint规则](http://eslint.org/docs/rules/)
+
+[设备像素比](http://www.zhangxinxu.com/wordpress/2012/08/window-devicepixelratio/)
+
+[Flex布局](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool)
+
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
