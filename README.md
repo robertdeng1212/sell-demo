@@ -51,7 +51,7 @@ better-scroll的滚动原理，dom结构至少需要2层。外层容器需要有
 
 [better-scroll](https://github.com/ustbhuangyi/better-scroll)
 
-[webpack官网](http:/ /webpack.github.io/)
+[webpack官网](http://webpack.github.io/)
 
 [Stylus中文文档](http://www.zhangxinxu.com/jq/stylus/)
 
@@ -62,5 +62,7 @@ better-scroll的滚动原理，dom结构至少需要2层。外层容器需要有
 [设备像素比](http://www.zhangxinxu.com/wordpress/2012/08/window-devicepixelratio/)
 
 [Flex布局](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool)
+
+[贝塞尔曲线测试](http://cubic-bezier.com/)
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
