@@ -39,4 +39,10 @@ vue init webpack#1.0 projectname
 better-scroll的滚动原理，dom结构至少需要2层。外层容器需要有固定的大小（宽度或高度），作为视口；内层容器的大小是由内容撑开的，当内层高度或宽度超过外层视口的时候，才会产生滚动。
 所以首先需要检查内外层的尺寸，其次是在Vue.js里，我们改变数据，dom并不会立刻改变，通常会在下一个Event Loop，通常我们说的nextTick去更新。而我们的better-scroll是依赖dom的。所以，当数据变化映射的dom和better-scroll相关的时候，我们通常需要在vm.$nextTick的回调函数里初始化或者刷新better-scroll。
 
+## 参考
+
+[Vue.js 官网](https://vuejs.org.cn/)
+
+[Vue-cli 官网](https://github.com/vuejs/vue-cli)
+
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
