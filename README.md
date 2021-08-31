@@ -44,7 +44,7 @@ chainWebpack (config) {
 }
 ```
 
-## 检验 webpack 配置是否成功
+### 检验 webpack 配置是否成功
 
 `vue inspect >> output1.js`
 
@@ -60,4 +60,22 @@ new ContextReplacementPlugin(
   /moment[/\\]locale$/,
   /zh-cn/
 )
+```
+
+### 安装 live-server 服务器
+
+`npm install -g live-server`
+
+启动服务
+
+```shell
+cd dist
+
+live-server
+```
+
+### 搭建小型 node 服务代理接口
+
+```shell
+node prod.server.js
 ```
